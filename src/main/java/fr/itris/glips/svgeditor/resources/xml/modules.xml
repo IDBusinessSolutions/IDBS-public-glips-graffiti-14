@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+ <modules>
+ 
+	<module class="fr.itris.glips.svgeditor.svgfile.SVGNewOpen" />
+	<module class="fr.itris.glips.svgeditor.svgfile.SVGFileDrop" />
+	<module class="fr.itris.glips.svgeditor.svgfile.SVGSaveClose" />
+	<module class="fr.itris.glips.svgeditor.svgfile.SVGExit" />
+	<module class="fr.itris.glips.svgeditor.SVGMemoryMonitor" />
+	<module class="fr.itris.glips.svgeditor.selection.SVGSelection" />
+
+	<module class="fr.itris.glips.svgeditor.svgfile.export.SVGExport" />
+	<module class="fr.itris.glips.svgeditor.svgfile.SVGPrint" />
+	<module class="fr.itris.glips.svgeditor.clipboard.SVGClipboard" />
+	<module class="fr.itris.glips.svgeditor.undoredo.SVGUndoRedo" />
+	<module class="fr.itris.glips.svgeditor.SVGAbout" />
+	<module class="fr.itris.glips.svgeditor.SVGDOMViewer" />
+
+	<module class="fr.itris.glips.svgeditor.canvas.SVGZoom" />
+	<module class="fr.itris.glips.svgeditor.canvas.SVGRulers" />
+	<module class="fr.itris.glips.svgeditor.canvas.SVGGrid" />
+	
+	<module class="fr.itris.glips.svgeditor.domactions.SVGOrder" />
+	<module class="fr.itris.glips.svgeditor.domactions.SVGAlign" />
+	<module class="fr.itris.glips.svgeditor.domactions.SVGGroupUnGroup" />
+	<module class="fr.itris.glips.svgeditor.domactions.SVGCenter" />
+	<module class="fr.itris.glips.svgeditor.domactions.SVGSpacing" />
+	<module class="fr.itris.glips.svgeditor.domactions.SVGSame" />
+	<module class="fr.itris.glips.svgeditor.domactions.SVGFlip" />
+	<module class="fr.itris.glips.svgeditor.domactions.SVGRotate" />
+	<module class="fr.itris.glips.svgeditor.domactions.SVGCanvasModifier" />
+	<module class="fr.itris.glips.svgeditor.canvas.SVGColorPicker" />
+	
+	<module class="fr.itris.glips.svgeditor.properties.SVGProperties" />
+	<!--<module class="fr.itris.glips.svgeditor.visualresources.SVGVisualResources" />-->
+	
+	<module class="fr.itris.glips.svgeditor.shape.SVGRectangle" />
+	<module class="fr.itris.glips.svgeditor.shape.SVGCircle" />
+	<module class="fr.itris.glips.svgeditor.shape.SVGEllipse" />
+	<module class="fr.itris.glips.svgeditor.shape.SVGImage" />
+	<module class="fr.itris.glips.svgeditor.shape.SVGLine" />
+	<module class="com.idbs.svg.shape.SVGSSingleArrowLine" />
+	<module class="com.idbs.svg.shape.SVGSDoubleArrowLine" />
+	<module class="fr.itris.glips.svgeditor.shape.SVGText" />
+	<module class="fr.itris.glips.svgeditor.shape.SVGPolyline" />
+	<module class="fr.itris.glips.svgeditor.shape.SVGPolygon" />
+<!-- <module class="fr.itris.glips.svgeditor.shape.SVGPath" />-->
+	<module class="fr.itris.glips.svgeditor.shape.SVGAny" />
+
+	<!--<module class="fr.itris.glips.rtdaeditor.shape.SVGRtdaView" />
+	<module class="fr.itris.glips.rtdaeditor.shape.SVGRtdaWidget" />
+	<module class="fr.itris.glips.rtdaeditor.colorchooser.SVGRtdaColorChooser" />
+	<module class="fr.itris.glips.rtdaeditor.dbeditor.SVGRtdaDataBaseEditor" />
+	<module class="fr.itris.glips.rtdaeditor.jwidget.JWidgetManager" />
+	<module class="fr.itris.glips.rtdaeditor.anim.components.RtdaAnimationsAndActions" />
+	-->
+</modules>
+

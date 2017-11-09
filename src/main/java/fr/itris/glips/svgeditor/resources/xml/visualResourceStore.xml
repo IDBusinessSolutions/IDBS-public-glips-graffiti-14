@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+
+<!--
+	=============================================
+	GNU LESSER GENERAL PUBLIC LICENSE Version 2.1
+	=============================================
+	GLIPS Graffiti Editor, a SVG Editor
+	Copyright (C) 2003 Jordi SUC, Philippe Gil, SARL ITRIS
+	
+	This library is free software; you can redistribute it and/or
+	modify it under the terms of the GNU Lesser General Public
+	License as published by the Free Software Foundation; either
+	version 2.1 of the License, or (at your option) any later version.
+	
+	This library is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+	Lesser General Public License for more details.
+	
+	You should have received a copy of the GNU Lesser General Public
+	License along with this library; if not, write to the Free Software
+	Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+	
+	Contact : jordi.suc@itris.fr; philippe.gil@itris.fr
+	
+	=============================================
+-->
+
+<svg width="400" zoomAndPan="magnify" contentStyleType="text/css"
+	height="400" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet"
+	xmlns="http://www.w3.org/2000/svg" version="1.0">
+
+	<g id="idbs_defs_v1">
+
+
+		<!-- Place for temporary coloured clones of markers to go when created on the fly -->
+		<g id="idbs_defs_v1_temp_markers">
+		</g>
+
+		<!--  markers which can be used either as start, end or mid points -->
+
+		<g id="idbs_defs_v1_marker-any">
+			<g id="idbs_defs_v1_marker-any_small">
+				<marker id="idbs_defs_v1_any_small:Blob"
+					viewBox="0 0 100 100" refX="50" refY="50" markerUnits="strokeWidth"
+					markerWidth="4" markerHeight="4" orient="auto">
+					<circle cx="50" cy="50" r="50" fill="currentColor"
+						stroke="currentColor" stroke-width="1" />
+				</marker>
+				<marker id="idbs_defs_v1_any_small:Square"
+					viewBox="0 0 100 100" refX="50" refY="50" markerUnits="strokeWidth"
+					markerWidth="4" markerHeight="4" orient="auto">
+					<rect x="0" y="0" height="100" width="100"
+						fill="currentColor" stroke="currentColor" stroke-width="1" />
+				</marker>
+			</g>
+			<g id="idbs_defs_v1_marker-any_medium">
+				<marker id="idbs_defs_v1_any_medium:Blob"
+					viewBox="0 0 100 100" refX="50" refY="50" markerUnits="strokeWidth"
+					markerWidth="8" markerHeight="8" orient="auto">
+					<circle cx="50" cy="50" r="50" fill="currentColor"
+						stroke="currentColor" stroke-width="1" />
+				</marker>
+				<marker id="idbs_defs_v1_any_medium:Square"
+					viewBox="0 0 100 100" refX="50" refY="50" markerUnits="strokeWidth"
+					markerWidth="8" markerHeight="8" orient="auto">
+					<rect x="0" y="0" height="100" width="100"
+						fill="currentColor" stroke="currentColor" stroke-width="1" />
+				</marker>
+			</g>
+			<g id="idbs_defs_v1_marker-any_large">
+				<marker id="idbs_defs_v1_any_large:Blob"
+					viewBox="0 0 100 100" refX="50" refY="50" markerUnits="strokeWidth"
+					markerWidth="12" markerHeight="12" orient="auto">
+					<circle cx="50" cy="50" r="50" fill="currentColor"
+						stroke="currentColor" stroke-width="1" />
+				</marker>
+				<marker id="idbs_defs_v1_any_large:Square"
+					viewBox="0 0 100 100" refX="50" refY="50" markerUnits="strokeWidth"
+					markerWidth="12" markerHeight="12" orient="auto">
+					<rect x="0" y="0" height="100" width="100"
+						fill="currentColor" stroke="currentColor" stroke-width="1" />
+				</marker>
+			</g>
+		</g>
+
+
+		<!--  markers which can only be used as end points -->
+		<g id="idbs_defs_v1_marker-end">
+			<g id="idbs_defs_v1_marker-end_small">
+				<marker id="idbs_defs_v1_end_small:Triangle_empty"
+					viewBox="0 0 100 100" refX="4" refY="50" markerUnits="strokeWidth"
+					markerWidth="4" markerHeight="4" orient="auto">
+					<polygon points="5,11 82,50 5,89" fill="none"
+						stroke="currentColor" stroke-width="16" stroke-linecap="square"
+						stroke-linejoin="miter" />
+				</marker>
+
+				<marker id="idbs_defs_v1_end_small:Triangle_filled"
+					viewBox="0 0 100 100" refX="4" refY="50" markerUnits="strokeWidth"
+					markerWidth="4" markerHeight="4" orient="auto">
+					<polygon points="5,11 82,50 5,89"
+						fill="currentColor" stroke="currentColor" stroke-width="16"
+						stroke-linecap="square" stroke-linejoin="miter" />
+				</marker>
+
+				<marker id="idbs_defs_v1_end_small:Line_arrow"
+					viewBox="0 0 100 100" refX="4" refY="50" markerUnits="strokeWidth"
+					markerWidth="4" markerHeight="4" orient="auto">
+					<polyline points="8,9 83,50 8,91" fill="none"
+						stroke="currentColor" stroke-width="15" stroke-linecap="round"
+						stroke-linejoin="miter" />
+					<line x1="0" y1="50" x2="70" y2="50"
+						stroke-width="25" stroke="currentColor" />
+				</marker>
+
+			</g>
+
+			<g id="idbs_defs_v1_marker-end_medium">
+				<marker id="idbs_defs_v1_end_medium:Triangle_empty" viewBox="0 0 100 100"
+					refX="4" refY="50" markerUnits="strokeWidth" 
+					markerWidth="8" markerHeight="8" orient="auto">
+					<polygon points="5,8 88,50 5,92" fill="none"
+						stroke="currentColor" stroke-width="10" stroke-linecap="square"
+						stroke-linejoin="miter" />
+				</marker>
+
+				<marker id="idbs_defs_v1_end_medium:Triangle_filled"
+					viewBox="0 0 100 100" refX="4" refY="50" markerUnits="strokeWidth"
+					markerWidth="8" markerHeight="8" orient="auto">
+					<polygon points="5,8 88,50 5,92" fill="currentColor"
+						stroke="currentColor" stroke-width="10" stroke-linecap="square"
+						stroke-linejoin="miter" />
+				</marker>
+
+				<marker id="idbs_defs_v1_end_medium:Line_arrow" viewBox="0 0 100 100"
+					refX="4" refY="50" markerUnits="strokeWidth" 
+					markerWidth="8" markerHeight="8" orient="auto">
+					<polyline points="5,8 88,50 5,92" fill="none"
+						stroke="currentColor" stroke-width="10" stroke-linecap="round"
+						stroke-linejoin="miter" />
+					<line x1="0" y1="50" x2="80" y2="50"
+						stroke-width="12.5" stroke="currentColor" />				
+				</marker>
+			</g>
+			
+			<g id="idbs_defs_v1_marker-end_large">
+				<marker id="idbs_defs_v1_end_large:Triangle_empty" viewBox="0 0 100 100"
+				refX="4" refY="50" markerUnits="strokeWidth" 
+				markerWidth="12" markerHeight="12" orient="auto">
+				<polygon points="3,6 92,50 3,94" fill="none"
+					stroke="currentColor" stroke-width="7" stroke-linecap="square"
+					stroke-linejoin="miter" />
+				</marker>
+
+				<marker id="idbs_defs_v1_end_large:Triangle_filled" viewBox="0 0 100 100" 
+					refX="4" refY="50" markerUnits="strokeWidth"
+					markerWidth="12" markerHeight="12" orient="auto">
+					<polygon points="3,6 92,50 3,94" fill="currentColor"
+						stroke="currentColor" stroke-width="7" stroke-linecap="square"
+						stroke-linejoin="miter" />
+				</marker>
+
+				<marker id="idbs_defs_v1_end_large:Line_arrow" viewBox="0 0 100 100"
+					refX="4" refY="50" markerUnits="strokeWidth" 
+					markerWidth="12" markerHeight="12" orient="auto">
+					<polyline points="5,5 90,50 5,95" fill="none"
+						stroke="currentColor" stroke-width="8" stroke-linecap="round"
+						stroke-linejoin="miter" />
+					<line x1="0" y1="50" x2="88" y2="50"
+						stroke-width="8.3" stroke="currentColor" />
+				</marker>
+			</g>			
+			
+		</g>
+		
+		<!--  markers which can only be used as start points -->
+		<g id="idbs_defs_v1_marker-start">
+			<g id="idbs_defs_v1_marker-start_small">
+				<marker id="idbs_defs_v1_start_small:Triangle_empty"
+					viewBox="0 0 100 100" refX="96" refY="50" markerUnits="strokeWidth"
+					markerWidth="4" markerHeight="4" orient="auto">
+					<g transform="rotate(180, 50, 50)">
+						<polygon points="5,11 82,50 5,89" fill="none"
+							stroke="currentColor" stroke-width="16" stroke-linecap="square"
+							stroke-linejoin="miter" />
+					</g>
+				</marker>
+
+				<marker id="idbs_defs_v1_start_small:Triangle_filled"
+					viewBox="0 0 100 100" refX="96" refY="50" markerUnits="strokeWidth"
+					markerWidth="4" markerHeight="4" orient="auto">
+					<g transform="rotate(180, 50, 50)">
+						<polygon points="5,11 82,50 5,89"
+							fill="currentColor" stroke="currentColor" stroke-width="16"
+							stroke-linecap="square" stroke-linejoin="miter" />
+					</g>
+				</marker>
+
+				<marker id="idbs_defs_v1_start_small:Line_arrow"
+					viewBox="0 0 100 100" refX="96" refY="50" markerUnits="strokeWidth"
+					markerWidth="4" markerHeight="4" orient="auto">
+					<g transform="rotate(180, 50, 50)">
+						<polyline points="8,9 83,50 8,91" fill="none"
+							stroke="currentColor" stroke-width="15" stroke-linecap="round"
+							stroke-linejoin="miter" />
+						<line x1="0" y1="50" x2="70" y2="50"
+							stroke-width="25" stroke="currentColor" />
+					</g>
+				</marker>
+
+			</g>
+
+			<g id="idbs_defs_v1_marker-start_medium">
+				<marker id="idbs_defs_v1_start_medium:Triangle_empty"
+					viewBox="0 0 100 100" refX="96" refY="50" markerUnits="strokeWidth"
+					markerWidth="8" markerHeight="8" orient="auto">
+					<g transform="rotate(180, 50, 50)">
+						<polygon points="5,8 88,50 5,92" fill="none"
+							stroke="currentColor" stroke-width="10" stroke-linecap="square"
+							stroke-linejoin="miter" />
+					</g>
+				</marker>
+
+				<marker id="idbs_defs_v1_start_medium:Triangle_filled"
+					viewBox="0 0 100 100" refX="96" refY="50" markerUnits="strokeWidth"
+					markerWidth="8" markerHeight="8" orient="auto">
+					<g transform="rotate(180, 50, 50)">
+						<polygon points="5,8 88,50 5,92"
+							fill="currentColor" stroke="currentColor" stroke-width="10"
+							stroke-linecap="square" stroke-linejoin="miter" />
+					</g>
+				</marker>
+
+				<marker id="idbs_defs_v1_start_medium:Line_arrow"
+					viewBox="0 0 100 100" refX="96" refY="50" markerUnits="strokeWidth"
+					markerWidth="8" markerHeight="8" orient="auto">
+					<g transform="rotate(180, 50, 50)">
+						<polyline points="5,8 88,50 5,92" fill="none"
+							stroke="currentColor" stroke-width="10" stroke-linecap="round"
+							stroke-linejoin="miter" />
+						<line x1="0" y1="50" x2="80" y2="50"
+							stroke-width="12.5" stroke="currentColor" />
+					</g>
+				</marker>
+			</g>
+
+			<g id="idbs_defs_v1_marker-start_large">
+				<marker id="idbs_defs_v1_start_large:Triangle_empty"
+					viewBox="0 0 100 100" refX="96" refY="50" markerUnits="strokeWidth"
+					markerWidth="12" markerHeight="12" orient="auto">
+					<g transform="rotate(180, 50, 50)">
+						<polygon points="3,6 92,50 3,94" fill="none"
+							stroke="currentColor" stroke-width="7" stroke-linecap="square"
+							stroke-linejoin="miter" />
+					</g>
+				</marker>
+
+				<marker id="idbs_defs_v1_start_large:Triangle_filled"
+					viewBox="0 0 100 100" refX="96" refY="50" markerUnits="strokeWidth"
+					markerWidth="12" markerHeight="12" orient="auto">
+					<g transform="rotate(180, 50, 50)">
+						<polygon points="3,6 92,50 3,94"
+							fill="currentColor" stroke="currentColor" stroke-width="7"
+							stroke-linecap="square" stroke-linejoin="miter" />
+					</g>
+				</marker>
+
+				<marker id="idbs_defs_v1_start_large:Line_arrow"
+					viewBox="0 0 100 100" refX="96" refY="50" markerUnits="strokeWidth"
+					markerWidth="12" markerHeight="12" orient="auto">
+					<g transform="rotate(180, 50, 50)">
+						<polyline points="5,5 90,50 5,95" fill="none"
+							stroke="currentColor" stroke-width="8" stroke-linecap="round"
+							stroke-linejoin="miter" />
+						<line x1="0" y1="50" x2="88" y2="50"
+							stroke-width="8.3" stroke="currentColor" />
+					</g>
+				</marker>
+			</g>
+
+		</g>
+
+	</g>
+</svg>

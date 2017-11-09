@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+
+<!--
+ =============================================
+                   GNU LESSER GENERAL PUBLIC LICENSE Version 2.1
+ =============================================
+GLIPS Graffiti Editor, a SVG Editor
+Copyright (C) 2003 Jordi SUC, Philippe Gil, SARL ITRIS
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+Contact : jordi.suc@itris.fr; philippe.gil@itris.fr
+
+ =============================================
+-->
+<menubar>
+	<menu name="menufile">
+<!--
+		<menuitem name="New"/>
+		<menuitem name="Open"/>
+		<menuitem name="OpenRecent"/>
+		<separator/>
+		<menuitem name="Save"/>
+		<menuitem name="SaveAs"/>
+		<separator/>
+-->
+		<menuitem name="Export"/>
+<!--		
+		<menuitem name="Print"/>
+
+		<separator/>
+		<menuitem name="Close"/>
+		<menuitem name="CloseAll"/>
+		<separator/>
+		<menuitem name="Exit"/>
+-->
+	</menu>
+	
+	<menu name="menuedit">
+		<menuitem name="Undo"/>
+		<menuitem name="Redo"/>
+		<separator/>
+		<menuitem name="Copy"/>
+		<menuitem name="Paste"/>
+		<menuitem name="Cut"/>
+		<menuitem name="Delete"/>
+		<separator/>
+		<menuitem name="Group"/>
+		<menuitem name="UnGroup"/>
+		<menuitem name="GroupMenu"/>
+		<separator/>
+		<menuitem name="Lock"/>
+		<menuitem name="UnLock"/>
+		<separator/>
+		<menuitem name="SelectAll"/>
+		<menuitem name="DeselectAll"/>	
+	</menu>
+
+	<menu name="menudraw">
+		<menuitem name="Rectangle"/>
+		<menuitem name="Circle"/>	
+		<menuitem name="Ellipse"/>
+		<separator/>
+		<menuitem name="Line"/>	
+		<menuitem name="SingleArrowLine"/>	
+		<menuitem name="DoubleArrowLine"/>	
+		<menuitem name="Polygon"/>
+		<menuitem name="Polyline"/>
+		<separator/>
+		<menuitem name="Text"/>
+<!--		
+		<separator/>		
+		<menuitem name="Image"/>
+	
+		<separator/>
+		<menuitem name="QuadraticBezier"/>
+		<menuitem name="CubicBezier"/>	
+-->			<separator/>
+		<menuitem name="PathOperations"/>
+		<menuitem name="ToolFrame_Properties"/>
+		<!--<separator/>
+		<menuitem name="RtdaView"/>	
+		<menuitem name="RtdaWidget"/>-->
+	</menu>
+
+	<menu name="menutransform">
+		<menuitem name="Align"/>
+		<menuitem name="Same"/>
+		<menuitem name="Spacing"/>
+		<separator/>
+		<menuitem name="Center"/>
+		<menuitem name="Order"/>
+		<menuitem name="Rotate"/>		
+		<menuitem name="Flip"/>
+		<separator/>
+		<menuitem name="CanvasModifier"/>
+	</menu>
+
+	<menu name="menudisplay">
+		<menu name="menuframe">
+		</menu>
+		<separator/>
+		<menuitem name="Zoom 1:1"/>
+		<menuitem name="Zoom +"/>
+		<menuitem name="Zoom -"/>
+		<menuitem name="Zoom"/>
+		<separator/>
+		<menuitem name="Grid"/>
+		<menuitem name="Rulers"/>
+	</menu>
+<!--
+	<menu name="menudialog">
+
+		<menuitem name="ToolFrame_VisualResources"/>
+		<separator/>
+		<menuitem name="ToolFrame_RtdaAnimationsAndActions"/>
+		<menuitem name="RtdaAnimationsAndActionsTestLauncher"/>
+		<menuitem name="ToolFrame_RtdaDataBaseEditor"/>
+		<separator/>
+		<menuitem name="DOMViewer"/>
+		<menuitem name="MemoryMonitor"/>
+	</menu>
+
+	<menu name="menuhelp">
+		<menuitem name="About"/>
+	</menu>
+-->
+</menubar> 
