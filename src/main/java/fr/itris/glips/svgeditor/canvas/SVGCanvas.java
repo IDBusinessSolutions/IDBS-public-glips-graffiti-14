@@ -38,12 +38,10 @@ import javax.swing.*;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import org.apache.batik.anim.dom.SVGDOMImplementation;
 import org.apache.batik.bridge.*;
 import org.apache.batik.dom.svg.*;
 import org.apache.batik.gvt.*;
 import org.apache.batik.gvt.event.*;
-import org.apache.batik.anim.dom.SAXSVGDocumentFactory;
 import org.apache.batik.swing.*;
 import org.w3c.dom.*;
 import org.w3c.dom.svg.*;
@@ -569,7 +567,7 @@ public class SVGCanvas extends JLayeredPane {
 			public void run() {
 
 				DOMImplementation impl=SVGDOMImplementation.getDOMImplementation();
-				String svgNS= SVGDOMImplementation.SVG_NAMESPACE_URI;
+				String svgNS=SVGDOMImplementation.SVG_NAMESPACE_URI;
 				SVGDocument doc=(SVGDocument)impl.createDocument(svgNS, "svg", null); //$NON-NLS-1$
 				
 				//gets the root element (the svg element)

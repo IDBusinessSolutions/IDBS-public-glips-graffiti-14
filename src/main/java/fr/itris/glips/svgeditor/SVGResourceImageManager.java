@@ -35,7 +35,6 @@ import java.util.*;
 import javax.swing.*;
 import javax.swing.plaf.metal.*;
 
-import org.apache.batik.anim.dom.SVGDOMImplementation;
 import org.apache.batik.dom.svg.*;
 import org.apache.batik.swing.*;
 import org.apache.batik.swing.gvt.*;

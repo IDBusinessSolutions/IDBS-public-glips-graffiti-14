@@ -29,7 +29,6 @@ package fr.itris.glips.svgeditor.visualresources;
 import java.awt.geom.*;
 import java.util.*;
 
-import org.apache.batik.anim.dom.SVGDOMImplementation;
 import org.apache.batik.dom.svg.*;
 import org.w3c.dom.*;
 
