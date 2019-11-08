@@ -32,8 +32,8 @@ import java.util.*;
 
 import javax.swing.*;
 
-import org.apache.batik.apps.svgbrowser.DOMViewer;
-import org.apache.batik.apps.svgbrowser.DOMViewerController;
+import org.apache.batik.util.gui.*;
+
 /**
  * @author Jordi SUC
  *
@@ -64,7 +64,8 @@ public class SVGDOMViewer extends SVGModuleAdapter{
 	/**
 	 * the dom viewer
 	 */
-	private DOMViewer domViewerDialog=new DOMViewer((DOMViewerController) this);	
+	private DOMViewer domViewerDialog=new DOMViewer();
+	
 	/**
 	 * the editor
 	 */
